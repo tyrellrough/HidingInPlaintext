@@ -1,47 +1,65 @@
-package com.example.testingproject;
+package com.example.hidinginplaintextjavafx;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FilenameFilter;
 import java.util.Scanner;
 
 /**
- * A helper class providing (.txt) file operations including
- * reading grammars.
+ * A helper class providing (.txt) file operations including reading grammars.
+ * @author Tyrell R
+ * @version 1.0
  */
 public class FileOperations {
 
+    /**
+     * String used to split the production name from the rest of the
+     * production.
+     */
     static final String PRODUCTION_NAME_SPLITTER = "->";
+    /**
+     * String "||" used to split choices.
+     */
     static final String CHOICE_SPLITTER = "\\|\\|";
 
+    /**
+     * String used to split terminals from non-terminals.
+     */
     static final String TERMINAL_NONTERMINAL_SPLITTER = "¬";
 
+    /**
+     * String used to split non-terminal from each-other.
+     */
     static final String NONTERMINAL_SPLITTER = ",";
 
+    /**
+     * A method which parses a grammar text file.
+     * @param textFile Name of grammar file to parse.
+     * @return A grammar constructed as specified in the given grammar text file.
+     * @throws FileNotFoundException Thrown if grammar file does not exist.
+     */
     static public Grammar parseGrammarTextFile(String textFile) throws FileNotFoundException {
-        /**
-         * Grammar to be returned.
-         */
-        Grammar grammar = new Grammar();
-        /**
-         * Grammar text file scanner.
-         */
-        Scanner grammarFileScanner;
+        Grammar grammar = new Grammar(); // Grammar to be returned.
+        Scanner grammarFileScanner; // Grammar text file scanner.
+        String path = new File("").getAbsolutePath();
+        path += "\\Grammars\\";
+        path += textFile;
 
-        /**
+        /*
          * Attempt to create a grammar file and pass it
          * to the scanner.
          */
         try {
-            File grammarFile = new File(textFile);
+            File grammarFile = new File(path);
             grammarFileScanner = new Scanner(grammarFile);
         } catch (FileNotFoundException e) {
             throw new FileNotFoundException("FileOperations.parseGrammarTextFile. Could not find file:\""
                     + textFile + "\"");
         }
 
+        //loop through each line of the text file.
         while (grammarFileScanner.hasNextLine()) {
-            //Each line has a production.
-            Production production = new Production();
+            Production production = new Production(); //Each line has a production.
 
             //Get the next line.
             String currentLine = grammarFileScanner.nextLine();
@@ -51,6 +69,7 @@ public class FileOperations {
              */
             boolean hasProductionNameSplitter = currentLine.contains(PRODUCTION_NAME_SPLITTER);
             if(!hasProductionNameSplitter) {
+                System.out.println(currentLine);
                 String errorMessage = "Current line does not contain production name splitter \"" +
                         PRODUCTION_NAME_SPLITTER +"\". Current line: " + currentLine;
                 throw new RuntimeException(errorMessage);
@@ -127,4 +146,25 @@ public class FileOperations {
         } //end of get line loop.
         return grammar;
     } //end of parse grammar loop.
+
+    /**
+     * A method to get all grammar text files in the \Grammars relative directory.
+     * @return An array of grammar (.txt) files.
+     */
+    public static File[] getGrammarFiles() {
+        String path = new File("").getAbsolutePath();
+        path += "\\Grammars";
+        File dir = new File(path);
+
+        File[] matches = dir.listFiles(new FilenameFilter()
+        {
+            public boolean accept(File dir, String name)
+            {
+                return name.endsWith(".txt");
+            }
+        });
+        return matches;
+    }
+
+
 }

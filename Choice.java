@@ -1,9 +1,10 @@
-package com.example.testingproject;
+package com.example.hidinginplaintextjavafx;
 
 import java.util.ArrayList;
 
 /**
- * Author 2011077
+ * @Author Tyrell R
+ * @version 1.0
  * A choice is a single group of terminal and non-terminal symbols.
  * A production can contain many choices.
  *
@@ -33,8 +34,6 @@ public class Choice {
      */
     private ArrayList<String> nonTerminals = new ArrayList<>();
 
-    //Constructors.
-
     /**
      * Empty choice constructor.
      */
@@ -43,45 +42,62 @@ public class Choice {
 
     }
 
-    /**
-     * Construct a choice with data.
-     * @param terminals String of ASCII characters.
-     * @param nonTerminals List of production names to point to.
-     */
-    Choice(String terminals, ArrayList<String> nonTerminals)
-    {
 
-    }
-
-    boolean hasNonTerminals() {
+    public boolean hasNonTerminals() {
         return !(nonTerminals.size() == 0);
     }
 
-
+    /**
+     * A method to set a choice's terminals.
+     * @param terminals Terminal string to set.
+     */
     public void setTerminals(final String terminals)
     {
         this.terminals = terminals;
     }
 
+    /**
+     * A method to get a choice's terminals.
+     * @return The choice's terminals.
+     */
     public String getTerminals()
     {
         return this.terminals;
     }
 
+    /**
+     * A method that adds a non-Terminal to this choice's non-terminal arraylist.
+     * @param nonTerminal Non-terminal string to add to the non-terminal arraylist.
+     */
     public void addNonTerminal(final String nonTerminal)
     {
         this.nonTerminals.add(nonTerminal);
     }
 
+    /**
+     * A method to get a non-terminal from a choice's non-terminal arraylist.
+     * @param index Index of non-terminal to get.
+     * @return A non-terminal string.
+     */
     public String getNonTerminal(final int index)
     {
         return this.nonTerminals.get(index);
     }
 
+    /**
+     * A method which gets a choice's non-terminal arraylist.
+     * @return This choice's non-terminal arraylist.
+     */
     public ArrayList<String> getNonTerminals() {
         return this.nonTerminals;
     }
 
+    /**
+     * Converts a choice to string in this format:
+     * terminals ¬NONTERMINAL,NONTERMINAL2
+     * E.G. " Of love and hope and endless light¬LINE15"
+     * @return
+     */
     public String toString() {
         String output = terminals;
         boolean containsNonTerminals = nonTerminals.size() != 0;
