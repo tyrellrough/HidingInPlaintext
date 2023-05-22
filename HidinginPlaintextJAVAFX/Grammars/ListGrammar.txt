@@ -1,0 +1,61 @@
+START->Name,Cost¬ITEM0,ITEM1,ITEM2,ITEM3,ITEM4,ITEM5,ITEM6,ITEM7,ITEM8,ITEM9,ITEM10,ITEM11,ITEM12,ITEM13,ITEM14,ITEM15,ITEM16,ITEM17,ITEM18,ITEM19,ITEM20,ITEM21,ITEM22,ITEM23,ITEM24,ITEM25,START
+ITEM0->¬NAME0,COST0
+ITEM1->¬NAME1,COST0
+ITEM2->¬NAME2,COST1
+ITEM3->¬NAME3,COST0
+ITEM4->¬NAME4,COST1
+ITEM5->¬NAME5,COST0
+ITEM6->¬NAME6,COST1
+ITEM7->¬NAME7,COST1
+ITEM8->¬NAME8,COST1
+ITEM9->¬NAME9,COST0
+ITEM10->¬NAME10,COST0
+ITEM11->¬NAME11,COST1
+ITEM12->¬NAME12,COST0
+ITEM13->¬NAME13,COST1
+ITEM14->¬NAME14,COST1
+ITEM15->¬NAME15,COST0
+ITEM16->¬NAME16,COST1
+ITEM17->¬NAME17,COST0
+ITEM18->¬NAME18,COST0
+ITEM19->¬NAME19,COST1
+ITEM20->¬NAME20,COST1
+ITEM21->¬NAME21,COST0
+ITEM22->¬NAME22,COST0
+ITEM23->¬NAME23,COST0
+ITEM24->¬NAME24,COST0
+ITEM25->¬NAME25,COST1
+NAME0->Atlas Halkidiki & Kalamata Olives with Chargrilled Peppers,||Charcuterie Antipasti Platter,||Mediterranean Inspired Antipasti Grazing Platter,||Chargrilled Peppers,||Jack Daniel's Tennessee Whiskey & Cola,||Pepsi Max Cans,||Pepsi Max Cherry Cola,||Fanta Orange,||Pepsi Max Lime No Sugar Cola Cans,||Fanta Fruit Twist,||Schweppes Slimline Tonic Water,||7UP Free Sparkling Lemon & Lime Drink,||Fanta Lemon Bottle,||Tango Apple Sugar Free,||Pepsi Max Cherry No Sugar Cola Bottle,||Fanta Fruit Twist Zero,
+NAME1->Red Bull Sugar Free Energy Drink Cans,||Red Bull Energy Drink Cans,||Fanta Zero Orange,||Diet Coke Caffeine Free Cans,||Coca Cola Orginal Taste,||Coca-Cola Zero Sugar Zero Caffeine Cans,||DR Pepper Zero Cans,||IRN BRU Soft Drink,||Coca Cola Zero Sugar,||Vimto Fizzy Orginal,||Chargrilled Artichokes,||Antipasti Sharing Platter,||Spanish Inspired Tortilla with Chorizo,||Spanish Inspired Chorizo Coins in a Red Wine Glaze,||Spicy Beef Nacho Pot,||Meatballs in a Rich Smoky Tomato Sauce,
+NAME2->Value Hickory Smoked Bacon,||Smoked Sausage,||Buffalo Style Chicken Dip,||Marketside Homestyle Guacamole,||Classic Bun Size Hot Dogs,||Thick Cut Hickory Real Wood Smoked Bacon,||Original Pepperoni Mega Pack,||Babybel Original Flavored Snack Cheese,||Pepper Jack, Cheddar Jack, Asiago & Extra Sharp Cheddar Cheese Slice Variety Pack,||CADBURY, MINI EGGS Milk Chocolate with a Crisp Sugar Shell Candy,||Starburst Original,||Starburst Jellybeans,||Milk Wholefat,||Milk Skimmed,||Milk Semi-skimmed,||Water,
+NAME3->Tender Chicken Breast Fillets,||Tender Chicken Breast Portions,||Succulent Large Chicken,||Extra Large Chicken,||Extra Tasty Whole Chicken,||Spicy Salt & Chilli Pepper Chicken Thighs,||Piri Piri Spatchcock Chicken,||Roast Parsnips Honey Glazed,||Frozen Peas,||Frozen Mixed Veg,||Frozen Garden Peas,||Frozen Sweetcorn,||Frozen Broccoli,||Frozen Whole Green Beans,||Measuring Jug,||Plant Popcorn Chicken,
+NAME4->Rowntree's 4 Fruit Pastille Lollies,||Nestle Fab Strawberry Ice Lollies,||Mushroom Pizza,||Chicken Burgers,||Mini Calzone Bites,||Kinder Bueno Hazelnuts & Milk Chocolate Bars,||Salted Caramel Ice Cream,||Chicken Mince,||Fragrant Tikka Chicken Breast Steaks,||Tender Diced Turkey Breast,||Chicken Kievs,||Garlic & Herb Chicken Kievs,||Tempura Chicken Mini Fillets,||Tender Diced Turkey Thigh,||Gluten Free Panini Rolls,||Gluten Free Pepperoni Pizza,
+NAME5->Japanese Katsu Curry,||Pitta Breads,||Veggie Straw,||Beef Burgers,||Extra Tasty Boneless Chicken Breast Joint,||Chicken Southern Fried Goujons,||Smoky Chorizo & Chicken Kebabs,||Peri Peri Chicken Drumsticks,||Turkey Mince,||Crunchy Broccoli,||White Wraps,||Brown Wraps,||Avacado,||Cucumbers,||Tikka Masala Curry,||Choclate Chip Biscuits,
+NAME6->Kit Kat 2 Finger White Chocolate Biscuit Bar Multipack,||Baked Bar Dark Chocolate & Orange,||Tingly Hot Sauce,||Kit Kat 2 Finger Milk Chocolate Biscuit Bar, 9 Pack,||Crunchy Nut Fruit & Nuts Granola,||No Added Sugar Baked Beans in Tomato Sauce,||Walkers 99 Calorie Mix 18 Pack,||Plant Based Spinach Noodles,||Dairy Milk Salted Caramel Nibbles,||Original Medium Chilli Con Carne Sauce,||Tuna Chunks in Sunflower Oil,||Chocolate Cake Mix,||Glass Dish With Lid,||Silicone Spatula,||Granulated Sugar,||Self Raising Flour,
+NAME7->Pizza,||Burger,||Sushi,||Tacos,||Curry,||Steak,||Fried Rice,||Salad,||Pancakes,||Waffles,||Omelette,||Roast Chicken,||Lobster,||Pho,||Ramen,||Quiche,
+NAME8->Shepherd's Pie,||Croissant,||Bagel,||Empanadas,||Jambalaya,||Paella,||Kebab,||Fajitas,||Poutine,||Donuts,||Macarons,||Cheesecake,||Baklava,||Jelly,||Scone,||Cannoli,
+NAME9->Bibimbap,||Churros,||Dim Sum,||Fish and Chips,||Hamburger,||Naan Bread,||Tandoori Chicken,||Sweet Potato,||Sweet Potato Fries,||Yakitori,||Zucchini Fritters,||Onion Rings,||Choclate Fudge Cake,||Spring Rolls,||Beef Stoganoff,||Chicken Parmesan,
+NAME10->Ahi Poke,||Arepas,||Beef Stroganoff,||Calamari,||Chicken Parmesan,||Coq au Vin,||Crab Cakes,||Croque Monsieur,||Doner Kebab,||Eggs Benedict,||Fried Chicken,||Goulash,||Hainanese Chicken Rice,||Huevos Rancheros,||Irish Stew,||Jerk Chicken,
+NAME11->Beef Wellington,||Bouillabaisse,||Chicken Adobo,||Clam Bake,||Couscous,||Empanadas,||Fettuccine Alfredo,||French Onion Soup,||Gumbo,||Hot Pot,||Jambon-Beurre,||Khachapuri,||Kibbeh,||Laksa,||Meatballs,||Mushroom Risotto,
+NAME12->Osso Bucco,||Pastrami Sandwich,||Peri Peri Chicken,||Pho,||Potato Latkes,||Pulled Pork,||Quesadilla,||Red Velvet Cake,||Scampi,||Shabu Shabu,||Sloppy Joes,||Spaghetti Bolognese,||Squid Ink Pasta,||Tacos al Pastor,||Tomato Soup,||Turkey Chili,
+NAME13->Arancini,||Beef Bourguignon,||Bibim Naengmyeon,||Bruschetta,||Carbonara,||Chicken Katsu,||Chow Mein,||Cobb Salad,||Cornish Pasty,||Crab Rangoon,||Creme Brulee,||Donburi,||Eggplant Parmesan,||Fish Tacos,||Gado Gado,||Grilled Cheese Sandwich,
+NAME14->Hamburger Steak,||Kung Pao Chicken,||Lengua Tacos,||Lobster Bisque,||Margherita Pizza,||Meatloaf,||Mie Goreng,||Oysters Rockefeller,||Panang Curry,||Pierogi,||Pork Belly,||Rack of Lamb,||Shrimp Scampi,||Smoked Salmon Bagel,||Steak Frites,||Tamales,
+NAME15->Arepas de Chocolo,||Baked Alaska,||Banh Mi,||Buffalo Wings,||Chicken and Waffles,||Chocolate Fondue,||Churro Ice Cream Sandwich,||Corn Dogs,||Creme Caramel,||Cuban Sandwich,||Fajita Salad,||Fish Pie,||French Toast,||Garlic Bread,||Goulash Soup,||Greek Salad,
+NAME16->Huevos Divorciados,||Irish Soda Bread,||Kofta Kebab,||Lamb Rogan Josh,||Lemon Tart,||Matzo Ball Soup,||Mozzarella Sticks,||Orecchiette Pasta,||Pad See Ew,||Panna Cotta,||Popcorn Shrimp,||Potato Skins,||Quinoa Salad,||Ravioli,||Salisbury Steak,||Shepherd's Pie,
+NAME17->Apple,||Banana,||Cherry,||Date,||Elderberry,||Fig,||Grape,||Honeydew,||Jackfruit,||Kiwi,||Lemon,||Mango,||Nectarine,||Orange,||Pineapple,||Quince,
+NAME18->Acai,||Blackberry,||Cantaloupe,||Dragonfruit,||Grapefruit,||Huckleberry,||Jabuticaba,||Key Lime,||Lime,||Mulberry,||Papaya,||Peach,||Rambutan,||Starfruit,||Tomato,||Yellow Watermelon,
+NAME19->Artichoke,||Beet,||Carrot,||Dill,||Eggplant,||Fennel,||Garlic,||Horseradish,||Iceberg lettuce,||Jicama,||Kale,||Leek,||Mushroom,||Napa cabbage,||Onion,||Potato,
+NAME20->Asparagus,||Broccoli,||Cabbage,||Cauliflower,||Green beans,||Okra,||Peppers,||Pumpkin,||Sweet potato,||Turnip,||Brussels sprouts,||Celery,||Collard greens,||Ginger,||Peas,||Swiss chard,
+NAME21->Hamburger,||Hotdog,||BBQ ribs,||Fried chicken,||Macaroni and cheese,||Grilled cheese sandwich,||Buffalo wings,||Clam chowder,||Lobster roll,||Philly cheesesteak,||Texas chili,||Deep dish pizza,||Reuben sandwich,||New England boiled dinner,||Cornbread,||Biscuits and gravy,
+NAME22->Pizza,||Spaghetti and meatballs,||Lasagna,||Fettuccine Alfredo,||Carbonara,||Risotto,||Minestrone soup,||Caprese salad,||Bruschetta,||Gnocchi,||Tiramisu,||Cannoli,||Antipasto platter,||Margherita pizza,||Ravioli,||Calzone
+NAME23->Croissants,||Baguette,||Quiche Lorraine,||Coq au Vin,||Beef Bourguignon,||Escargots,||Ratatouille,||Bouillabaisse,||Confit de Canard,||Crème Brûlée,||Tarte Tatin,||Soufflé,||Niçoise salad,||Salade Lyonnaise,||Cheese fondue,||Gratin Dauphinois,
+NAME24->Fish and chips,||Bangers and mash,||Roast beef and Yorkshire pudding,||Shepherd's pie,||Cornish pasty,||Full English breakfast,||Bubble and squeak,||Ploughman's lunch,||Toad in the hole,||Steak and kidney pie,||Black pudding,||Haggis,||Scotch eggs,||Welsh rarebit,||Eton mess,||Banoffee pie,
+NAME25->Sushi,||Ramen,||Tempura,||Yakitori,||Udon,||Miso soup,||Tonkatsu,||Okonomiyaki,||Soba noodles,||Takoyaki (octopus balls),||Gyoza,||Sashimi,||Teriyaki,||Onigiri (rice balls),||Matcha (powdered green tea),||Shabu-shabu (hot pot),
+COST0->$¬NUMBERS0,DNUMBERS1
+COST1->$¬NUMBERS1,DNUMBERS0
+NUMBERS0->1||3||7||6||2||5||8||4
+NUMBERS1->9||3||1||7||4||5||2||8
+NUMBERS3->0||4||3||5||9||8||2||1
+NUMBERS4->0||3||1||7||4||5||6||8
+DNUMBERS0->.8¬NUMBERS4||.6¬NUMBERS3||.4¬NUMBERS3||.3¬NUMBERS4||.2¬NUMBERS4||.5¬NUMBERS3||.1¬NUMBERS3||.7¬NUMBERS3
+DNUMBERS1->.3¬NUMBERS3||.9¬NUMBERS4||.7¬NUMBERS4||.2¬NUMBERS3||.4¬NUMBERS4||.5¬NUMBERS3||.1¬NUMBERS4||.8¬NUMBERS3

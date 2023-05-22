@@ -1,0 +1,2 @@
+START->apple||pear||lemon
+LION->apple||pear||lemon
